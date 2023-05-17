@@ -3,9 +3,12 @@ import Header from "./components/Header"
 import Productos from "./components/Productos"
 import NuevoProducto from "./components/NuevoProducto"
 import EditarProducto from "./components/EditarProducto"
+import { Provider } from "react-redux"
+import store from "./store"
 function App() {
   return(
   <BrowserRouter>
+  <Provider store={store}>
   <Header/>
   <div className="container">
     <Routes>
@@ -15,6 +18,7 @@ function App() {
     </Routes>
 
   </div>
+  </Provider>
   </BrowserRouter>
   
   )
