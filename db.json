@@ -29,6 +29,16 @@
       "nombre": "carne",
       "precio": 25,
       "id": 6
+    },
+    {
+      "nombre": "pez",
+      "precio": 45,
+      "id": 7
+    },
+    {
+      "nombre": "carro",
+      "precio": 55,
+      "id": 8
     }
   ]
 }

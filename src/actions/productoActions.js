@@ -10,7 +10,7 @@ export function crearNuevoProductoAction(producto) {
     dispatch(agregarProducto());
     try {
       //insertar en API
-      await clienteAxios.post("/hols", producto);
+      await clienteAxios.post("/productos", producto);
 
       dispatch(agregarProductoExito(producto));
     } catch (error) {
