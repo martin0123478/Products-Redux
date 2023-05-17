@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useDispatch,useSelector } from 'react-redux'
 //Actions
 import {crearNuevoProductoAction} from '../actions/productoActions'
+import { useNavigate } from "react-router-dom";
 const NuevoProducto = () => {
     //state componente
     const [nombre,setNombre] = useState('')
@@ -12,9 +13,10 @@ const NuevoProducto = () => {
     //acceder al state del store
     const cargando = useSelector(state => state.productos.loading)
     const error = useSelector(state => state.productos.error)
-    console.log(cargando)
+    
     //mandar a llamar action de productoActions
     const agregarProducto =producto=> dispatch(crearNuevoProductoAction(producto))
+    const navigate = useNavigate()
     
     const submitNuevoProducto = e =>{
         e.preventDefault()
@@ -24,6 +26,7 @@ const NuevoProducto = () => {
         }
         //crear nuevo producto
         agregarProducto({nombre,precio})
+        navigate("/")
     }
   return (
     <div className='row justify-content-center'>

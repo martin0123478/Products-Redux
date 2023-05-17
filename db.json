@@ -39,6 +39,46 @@
       "nombre": "carro",
       "precio": 55,
       "id": 8
+    },
+    {
+      "nombre": "gato",
+      "precio": 345,
+      "id": 9
+    },
+    {
+      "nombre": "perro",
+      "precio": 567,
+      "id": 10
+    },
+    {
+      "nombre": "jugo de piña",
+      "precio": 34,
+      "id": 11
+    },
+    {
+      "nombre": "refresco",
+      "precio": 45,
+      "id": 12
+    },
+    {
+      "nombre": "galletas",
+      "precio": 45,
+      "id": 13
+    },
+    {
+      "nombre": "Tequila",
+      "precio": 67,
+      "id": 14
+    },
+    {
+      "nombre": "comida",
+      "precio": 56,
+      "id": 15
+    },
+    {
+      "nombre": "carro",
+      "precio": 677,
+      "id": 16
     }
   ]
 }
