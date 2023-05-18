@@ -1,6 +1,13 @@
-import React from 'react'
-
+import { useDispatch,useSelector } from "react-redux"
+import { useEffect } from "react"
+import { obtenerProductosAction } from "../actions/productoActions"
 const Productos = () => {
+  const dispatch = useDispatch()
+  useEffect(()=>{
+    //consultar api
+    const cargarProductos = () => dispatch(obtenerProductosAction())
+    cargarProductos()
+  },[])
   return (
     <>
         <h2 className='text-center my-5'>Listado de Productos</h2>

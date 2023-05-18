@@ -79,6 +79,11 @@
       "nombre": "carro",
       "precio": 677,
       "id": 16
+    },
+    {
+      "nombre": "Tequila",
+      "precio": 56,
+      "id": 17
     }
   ]
 }
