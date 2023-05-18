@@ -1,61 +1,6 @@
 {
   "productos": [
     {
-      "id": 1,
-      "nombre": "Jugo de Zanahoria",
-      "precio": "31111"
-    },
-    {
-      "id": 2,
-      "nombre": "Jugo de Naranja",
-      "precio": "1"
-    },
-    {
-      "nombre": "Jugo de Naranja",
-      "precio": "300",
-      "id": 3
-    },
-    {
-      "nombre": "Rib Eye 800g",
-      "precio": "200",
-      "id": 4
-    },
-    {
-      "nombre": "Jugo de Fresa",
-      "precio": "200",
-      "id": 5
-    },
-    {
-      "nombre": "carne",
-      "precio": 25,
-      "id": 6
-    },
-    {
-      "nombre": "pez",
-      "precio": 45,
-      "id": 7
-    },
-    {
-      "nombre": "carro",
-      "precio": 55,
-      "id": 8
-    },
-    {
-      "nombre": "gato",
-      "precio": 345,
-      "id": 9
-    },
-    {
-      "nombre": "perro",
-      "precio": 567,
-      "id": 10
-    },
-    {
-      "nombre": "jugo de piña",
-      "precio": 34,
-      "id": 11
-    },
-    {
       "nombre": "refresco",
       "precio": 45,
       "id": 12
