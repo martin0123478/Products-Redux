@@ -1,26 +1,6 @@
 {
   "productos": [
     {
-      "nombre": "refresco",
-      "precio": 45,
-      "id": 12
-    },
-    {
-      "nombre": "galletas",
-      "precio": 45,
-      "id": 13
-    },
-    {
-      "nombre": "Tequila",
-      "precio": 67,
-      "id": 14
-    },
-    {
-      "nombre": "comida",
-      "precio": 56,
-      "id": 15
-    },
-    {
       "nombre": "carro",
       "precio": 677,
       "id": 16
@@ -29,6 +9,11 @@
       "nombre": "Tequila",
       "precio": 56,
       "id": 17
+    },
+    {
+      "nombre": "pollo",
+      "precio": 55,
+      "id": 18
     }
   ]
 }
