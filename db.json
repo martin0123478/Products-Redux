@@ -2,17 +2,17 @@
   "productos": [
     {
       "nombre": "carro",
-      "precio": 677,
+      "precio": "7732",
       "id": 16
     },
     {
       "nombre": "Tequila",
-      "precio": 56,
+      "precio": "566",
       "id": 17
     },
     {
       "nombre": "pollo",
-      "precio": 55,
+      "precio": "56",
       "id": 18
     }
   ]
